@@ -46,7 +46,7 @@ header{
     border-bottom: 2px solid #D1D196;
     background-color: rgba(197, 197, 174, 0.171);
 }
-@media all and (max-width: 750px){
+@media only screen and (max-width: 600px){
     header{
         background-position: -80px 0px;
     }
@@ -81,13 +81,24 @@ article{
 .c2{
     margin-left: auto;
 }
+@media only screen and (max-width:600px){
+    .article-bg{
+        padding: 50px 30px;
+        background-position: right;
+    }
+    .cards{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
 
 
 /*   Houses    */
 .house-head{
     font-family: GOT-font;
     font-size: 70px;
-    margin-left: 50px;
     margin-top: 40px;
     padding-top: 50px;
     text-align: center;
@@ -172,7 +183,7 @@ article{
     background-attachment: fixed;
 }
 
-@media all and (max-width: 750px){
+@media only screen and (max-width: 600px){
     .houses-container{
         text-align: center;
         padding: 10px;
